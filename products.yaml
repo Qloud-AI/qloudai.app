@@ -1,3 +1,15 @@
+germanWithNik:
+  name: German with Nik
+  icon: fas fa-language
+  url: https://germanwithnik.com/
+  users: 20+
+
+pdfBot:
+  name: PDF Bot
+  icon: far fa-file-pdf
+  url: https://chat.openai.com/g/g-vf2SBarTd-pdf-gpt
+  users: 0
+
 mediumTechBlogger:
   name: Medium Tech Blogger
   icon: fas fa-blog
