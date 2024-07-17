@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Qloud AI</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -46,6 +47,7 @@
         .product {
             margin: 10px;
             text-align: center;
+            width: 150px;
         }
         .product a {
             display: flex;
@@ -57,6 +59,11 @@
         .product i {
             font-size: 24px;
             margin-bottom: 5px;
+        }
+        .product .users {
+            font-size: 12px;
+            color: #666;
+            margin-top: 5px;
         }
         .side-projects {
             margin-top: 30px;
@@ -87,43 +94,8 @@
             <h3>Building AI software for everyday use</h3>
         </div>
         
-        <div class="products">
-            <div class="product">
-                <a href="https://germanwithnik.com/" target="_blank">
-                    <i class="fas fa-language"></i>
-                    <span>German with Nik</span>
-                </a>
-            </div>
-            <div class="product">
-                <a href="https://chat.openai.com/g/g-vf2SBarTd-pdf-gpt" target="_blank">
-                    <i class="far fa-file-pdf"></i>
-                    <span>PDF Bot</span>
-                </a>
-            </div>
-            <div class="product">
-                <a href="https://chat.openai.com/g/g-2Z9JO1ap2-medium-tech-blogger" target="_blank">
-                    <i class="fas fa-blog"></i>
-                    <span>Medium Tech Blogger</span>
-                </a>
-            </div>
-            <div class="product">
-                <a href="https://chat.openai.com/g/g-cbMzm6oC4-python-fast-api-expert" target="_blank">
-                    <i class="fab fa-python"></i>
-                    <span>Fast API Python Bot</span>
-                </a>
-            </div>
-            <div class="product">
-                <a href="https://chat.openai.com/g/g-VPHBPzzLd-crypto-advisor" target="_blank">
-                    <i class="fab fa-bitcoin"></i>
-                    <span>Crypto Advisor</span>
-                </a>
-            </div>
-            <div class="product">
-                <a href="https://chat.openai.com/g/g-wRVc49G82-visualize-your-data" target="_blank">
-                    <i class="fas fa-chart-bar"></i>
-                    <span>Data Visualization</span>
-                </a>
-            </div>
+        <div id="products" class="products">
+            <!-- Products will be populated by JavaScript -->
         </div>
 
         <div class="side-projects">
@@ -142,5 +114,7 @@
             <p><a href="mailto:qloudai.app@gmail.com">Reach Us</a></p>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
