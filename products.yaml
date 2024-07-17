@@ -8,28 +8,28 @@ pdfBot:
   name: PDF Bot
   icon: far fa-file-pdf
   url: https://chat.openai.com/g/g-vf2SBarTd-pdf-gpt
-  users: 0
+  users: 20+
 
 mediumTechBlogger:
   name: Medium Tech Blogger
   icon: fas fa-blog
   url: https://chat.openai.com/g/g-2Z9JO1ap2-medium-tech-blogger
-  users: 0
+  users: 10+
 
 fastApiPythonBot:
   name: Fast API Python Bot
   icon: fab fa-python
   url: https://chat.openai.com/g/g-cbMzm6oC4-python-fast-api-expert
-  users: 0
+  users: 80+
 
 cryptoAdvisor:
   name: Crypto Advisor
   icon: fab fa-bitcoin
   url: https://chat.openai.com/g/g-VPHBPzzLd-crypto-advisor
-  users: 0
+  users: 10+
 
 dataVisualization:
   name: Data Visualization
   icon: fas fa-chart-bar
   url: https://chat.openai.com/g/g-wRVc49G82-visualize-your-data
-  users: 0
+  users: 200+
