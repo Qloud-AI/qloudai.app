@@ -16,7 +16,7 @@ function populateProducts(productsConfig) {
                 <i class="${product.icon}"></i>
                 <span>${product.name}</span>
             </a>
-            <div class="users">${product.users} active users</div>
+            <div class="users">${product.users} users</div>
         `;
         productsContainer.appendChild(productDiv);
     }
