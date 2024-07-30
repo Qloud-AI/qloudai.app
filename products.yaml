@@ -4,6 +4,12 @@ germanWithNik:
   url: https://germanwithnik.com/
   users: 100+
 
+captionsGPT:
+  name: Captions GPT
+  icon: fas fa-hashtag
+  url: https://germanwithnik.com/
+  users: 100+
+
 pdfBot:
   name: PDF Bot
   icon: far fa-file-pdf
