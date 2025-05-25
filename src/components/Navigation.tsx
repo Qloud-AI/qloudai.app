@@ -41,7 +41,7 @@ export const Navigation = () => {
               Projects
             </button>
             <Button 
-              onClick={() => window.open('https://angshumangupta.com', '_blank')}
+              onClick={() => window.open('mailto:qloudai.app@gmail.com', '_blank')}
               variant="outline"
             >
               Contact
@@ -77,7 +77,7 @@ export const Navigation = () => {
                 Projects
               </button>
               <Button 
-                onClick={() => window.open('https://angshumangupta.com', '_blank')}
+                onClick={() => window.open('mailto:qloudai.app@gmail.com', '_blank')}
                 variant="outline"
                 className="w-full mt-2"
               >
