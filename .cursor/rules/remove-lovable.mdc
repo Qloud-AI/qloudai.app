@@ -1,0 +1,64 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+ # Remove Lovable References
+
+## Description
+This rule helps remove Lovable-specific references and dependencies from the codebase to make it a standalone application.
+
+## Changes to Apply
+
+### 1. Package Dependencies
+- Remove `lovable-tagger` from devDependencies in package.json
+- Remove Lovable component tagger from vite.config.ts
+
+### 2. Configuration Files
+- Update vite.config.ts to remove Lovable imports and plugins
+- Remove any Lovable-specific scripts from package.json
+
+### 3. Assets and Images
+- Replace `/lovable-uploads/*` image paths with `/logo.png`
+- Move logo to public directory
+- Update favicon in index.html
+
+### 4. Branding and Content
+- Update meta tags in index.html
+- Remove Lovable-specific URLs and references
+
+### 5. Components to Update
+- Navigation.tsx: Update logo and branding
+- Hero.tsx: Update content and branding
+- Footer.tsx: Update content, links, and branding
+
+## Example Changes
+
+### Before
+```typescript
+// vite.config.ts
+import { componentTagger } from "lovable-tagger";
+// ...
+plugins: [react(), componentTagger()]
+
+// Components
+<img src="/lovable-uploads/xyz.png" alt="Qloud AI" />
+<h1>Qloud AI</h1>
+```
+
+### After
+```typescript
+// vite.config.ts
+// ...
+plugins: [react()]
+
+// Components
+<img src="/logo.png" alt="App Logo" />
+<h1>My App</h1>
+```
+
+## Notes
+- Keep the core functionality intact
+- Maintain the same component structure
+- Update only Lovable-specific content
+- Ensure all image assets are moved to the public directory

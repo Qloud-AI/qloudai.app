@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Qloud AI Projects",
+  "name_for_model": "qloud_ai_projects",
+  "description_for_human": "Explore and learn about AI projects and tools built by Qloud AI.",
+  "description_for_model": "Get information about AI projects, tools, and applications built by Qloud AI. Includes project details, features, and use cases.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://qloudai.app/openapi.json"
+  },
+  "logo_url": "https://qloudai.app/logo.png",
+  "contact_email": "qloudai.app@gmail.com",
+  "legal_info_url": "https://qloudai.app/terms"
+} 
