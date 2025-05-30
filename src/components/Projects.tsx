@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Users, ExternalLink, Sparkles } from "lucide-react";
@@ -6,9 +5,17 @@ import { Users, ExternalLink, Sparkles } from "lucide-react";
 export const Projects = () => {
   const projects = [
     {
+      title: "Unautomated",
+      description: "On a mission to democratize career survival in the age of AI. Helping professionals adapt, thrive, and build sustainable careers in an automated world.",
+      users: "Ongoing 🚀",
+      isNew: true,
+      icon: "🤖",
+      url: "https://unautomated.xyz/"
+    },
+    {
       title: "Product Builders",
       description: "A growing community of builders using AI to prototype, ship, and scale digital products — includes tools, docs, and case studies.",
-      users: "New 🚀",
+      users: "Ongoing 🚀",
       isNew: true,
       icon: "🧑‍💻",
       url: "https://productbuilders.xyz/"
